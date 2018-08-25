@@ -6,3 +6,5 @@ here the list of strobes present in a file,
 - printing the dictionary elements 
 - seperate functions are written for each functionality. 
 this code is modular and managable, as a user, you need to change the regular expresion at one location and other code remains the same
+
+- Parsed a template file and made copies per tests and generated testbenches with specific clock, reset, delay etc. 
