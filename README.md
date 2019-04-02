@@ -1,10 +1,14 @@
-# pythonproject
-parse and extract strobe points
-here the list of strobes present in a file, 
-- first created the regular expression for the strobe points
-- parse the input file and checked for the stobe points and collected in a dictionary 
-- printing the dictionary elements 
-- seperate functions are written for each functionality. 
-this code is modular and managable, as a user, you need to change the regular expresion at one location and other code remains the same
+# Auto generation of testbench for Functional Safety Fault Simulation
 
-- Parsed a template file and made copies per tests and generated testbenches with specific clock, reset, delay etc. 
+Takes the Functional Safety inputs like Observation and Detection point. It includes information about CLOCK, RESET, Conditional Injection of faults, and time dependency for fault injection etc. 
+
+This python code parse the testbench template and update the user defined strobe points.
+#Python features are used to extract the strobe location.
+-- created a dictionary of regular expressions used to extract the strobe locations
+-- traversing regular expressions in a dictionary 
+-- parsing command line options for ease of use
+-- replacing global/generic values with the new user provided values like clock, reset, time to inject faults etc. 
+-- created a class of multiple function definitions 
+-- generating multiple test benches per test vector. 
+
+This code is modular and manageable, idea is to change the regular expressions at a location for the variable inputs for a IP/SoC. 
