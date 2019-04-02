@@ -1,4 +1,4 @@
-#! /depot/Python-3.6.2/bin/python
+#! /usr/local/Python-3.6.2/bin/python
 
 import re, getopt, sys, fileinput, os, glob, shlex, subprocess
 from shutil import copyfile
