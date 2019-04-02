@@ -1,4 +1,5 @@
-# Auto generation of testbench for Functional Safety Fault Simulation
+# Auto generation of Functional Safety Fault Simulation Testbench
+====================================================================
 
 Takes the Functional Safety inputs like Observation and Detection point. It includes information about CLOCK, RESET, Conditional Injection of faults, and time dependency for fault injection etc. 
 
