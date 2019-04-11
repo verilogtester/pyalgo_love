@@ -87,8 +87,8 @@ def parse_arg():
         print(err) # will print something like "option -a not recognized"
         print ("Usage \
                 ./file_parser.py \
-                -c tb_top.u_pimem.cc_pimem_apb_clk \
-                -r tb_top.u_pimem.cc_access_ares \
+                -c user_provided_clk_signal \
+                -r user_provided_reset_signal \
                 -f ./input.txt \
                 -d 1700ps \
                 -t testbench_template.v")
@@ -97,8 +97,8 @@ def parse_arg():
         if o in ("-h", "--help"):
             print ("Usage \
                 ./file_parser.py \
-                -c tb_top.u_pimem.cc_pimem_apb_clk \
-                -r tb_top.u_pimem.cc_access_ares \
+                -c user_provided_clock_signal \
+                -r user_provided_reset_signal \
                 -f ./input.txt \
                 -d 1700ps \
                 -t testbench_template.v")
