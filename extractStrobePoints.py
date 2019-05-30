@@ -1,5 +1,19 @@
 #! /usr/local/Python-3.6.2/bin/python
 
+"""
+# Auto generation of Fault Sim Test bench
+This python code parses the testbench template and updates the user-defined strobe points.
+#Python features are used to extract the strobe location.
+-- created a dictionary of regular expressions used to extract the strobe locations
+-- traversing regular expressions in a dictionary 
+-- parsing command line options for ease of use
+-- replacing global/generic values with the new user provided values like clock, reset, time to inject faults, etc. 
+-- created a class of multiple function definitions 
+-- generating multiple test benches per test vector. 
+
+This code is modular and manageable, idea is to change the regular expressions at a location for the variable inputs 
+""""
+
 import re, getopt, sys, fileinput, os, glob, shlex, subprocess
 from shutil import copyfile
 
