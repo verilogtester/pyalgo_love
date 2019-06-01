@@ -21,7 +21,7 @@ Assumptions: Patten is to have two branches and pass one element as height goes 
 def target_sum(list1):
     def helper(list1,i,t,m):
         print (m)
-        if i == len(list1) - 1:
+        if i == len(list1):
             if t == 0:
                 return True
             else:
