@@ -26,7 +26,7 @@ Tree Traversal:
 Traversal
 """
 
-# Python program to for tree traversals 
+# Python program to for tree traversals (This is recursive Approach)
   
 # A class that represents an individual node in a 
 # Binary Tree 
